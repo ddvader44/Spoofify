@@ -1,6 +1,5 @@
 package com.ddvader44.spoofify.exoplayer
 
-import android.media.browse.MediaBrowser
 import android.support.v4.media.MediaBrowserCompat
 import android.support.v4.media.MediaBrowserCompat.MediaItem.FLAG_PLAYABLE
 import android.support.v4.media.MediaDescriptionCompat
