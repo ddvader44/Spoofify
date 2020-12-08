@@ -1,8 +1,9 @@
-package com.ddvader44.spoofify
+package com.ddvader44.spoofify.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.RequestManager
+import com.ddvader44.spoofify.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
