@@ -5,6 +5,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.ddvader44.spoofify.R
+import com.ddvader44.spoofify.adapters.SwipeSongAdapter
 import com.ddvader44.spoofify.exoplayer.MusicServiceConnection
 import dagger.Module
 import dagger.Provides
@@ -33,4 +34,8 @@ object AppModule {
             .error(R.drawable.ic_image)
             .diskCacheStrategy(DiskCacheStrategy.DATA)
     )
+
+    @Singleton
+    @Provides
+    fun provideSwipeSongAdapter() = SwipeSongAdapter()
 }
